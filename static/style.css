@@ -1,0 +1,895 @@
+*{
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+.header{
+    background-color:  rgba(255, 255, 255, 0.948);
+    height: 4em;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    /* display: inline-block; */
+    /* padding-top: ; */
+}
+
+#name{
+    display: inline-block;
+    /* margin-left: %; */
+    
+    
+}
+
+img{
+    margin-top: 10%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+/* #logo{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-top: 2%;
+    position: relative;
+    /* background-color: yellow; 
+    background-image: url('python_logo.png');
+    background-size: contain;   
+} */
+
+.name_div{
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family:Magneto, Georgia, Times, 'Times New Roman', serif ;
+    display: inline-block;
+    /* margin-top: 1%; */
+    width: 10%;
+    margin-left: 10%;
+}
+
+.options{
+    display: inline-block;
+    margin-left:40%;
+    width: 35%;
+    /* margin-top: 2%; */
+}
+
+#home{
+    text-decoration: none;
+    padding-left: 4%;
+    
+}
+
+#about{
+    margin-left: 4%;
+}
+
+#skill{
+    margin-left: 4%;
+}
+
+#education{
+    margin-left: 4%;
+}
+
+#work{
+    margin-left: 4%;
+    
+}
+
+#experience{
+    margin-left: 4%;
+}
+
+#contact{
+    margin-left: 4%;
+    
+}
+
+.home-section{
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start ;
+    
+}
+
+#hi{
+    margin-top: 15%;
+    font-size: 50px;
+    margin-left: 10%;
+}
+
+#rohit{
+    display: inline-flex;
+    font-size: 50px;
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+#patel{
+    color: orange;
+    font-size: 50px;
+    display: inline-flex;
+    margin-left: 2px;
+}
+
+#des{
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+#pd{
+    font-size: 28px;
+    color: rgba(215, 61, 61, 0.742);
+}
+
+#abt-box{
+    margin-left: 10%;
+    margin-top: 30px;
+    border-radius: 20px;
+    /* opacity: 0.4; */
+    /* this is to add shadow effect in the element  */
+    
+    background-color: rgb(26, 0, 121);
+    height: 40px;
+    width: 120px;
+}
+
+#abt-me-button{
+    display: inline-block;
+    color: white;
+    margin-top: 9px;
+    margin-left: 1.5em;
+}
+
+.connection{
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.fab fa-instgram{
+    margin: top 50px;
+}
+
+#link{
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
+
+#linkedin{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#instagram{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#github{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+#twitter{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+#telegram{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#dev{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.home-left{
+    margin-top:10% ;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+.home-right{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: yellow;
+    display: inline-block;
+    margin-top: 14%;
+    margin-left: 10%;
+    box-shadow: 0px 0px 20px red;
+    background-image: url('rohit_photo.png');
+    background-size: cover;
+}
+
+.about-me-section{
+    /* display: inline-block; */
+    margin-top: 10%;
+    /* background-color: white; */
+    /* opacity: ; */
+    /* margin-bottom: 10%; */
+}
+
+#about-me-div{
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px 20px orange;
+    /* box-shadow: -5px -5px 10px orange; */
+    border-radius: 10px;
+    background-color: white;
+}
+
+#about-me-heading{
+    font-size: 50px;
+    font-weight: 700;
+    color: orange;
+    margin-left: 2%;
+    margin-top: 1%;
+    font-family: magneto;
+}
+
+#about-me-para{
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: justify;
+    font-size: 20px;
+    color: black;
+}
+
+#about-me-salutation{
+    text-align: right;
+    margin-right: 3%;
+    margin-bottom: 2%;
+}
+
+#about-me-rohit{
+    color: orange;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+#toolkit-list{
+    color: black;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+#toolkit-list-member{
+    color: orange;
+    font-weight: 900;
+}
+
+#about-me-salutation{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#skill-heading{
+    font-size: 50px;
+    font-weight: 700;
+    color: orange;
+    margin-left: 2%;
+    margin-top: 1%;
+    text-align: center;
+    text-decoration: underline;
+    font-family: magneto;
+    margin-top: 5%;
+    text-shadow: 0px 0px 10px rgb(255, 252, 92);
+    
+}
+
+#skill-background{
+    /* display: flex; */
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    /* box-shadow: 5px 5px 20px orange; */
+    /* box-shadow: -5px -5px 10px orange; */
+    border-radius: 10px;
+    /* background-color: white; */
+}
+#python{
+    /* width: 100px; */
+    display: flex;
+    height: 200px;
+    width: 95%;
+    /* background-color: white; */
+    border-radius: 300px;
+    /* box-shadow: 0 0 10px orange; */
+    margin-top: 10px;
+    margin-left: 2%;
+    transition-property: all;
+    transition-timing-function:ease-in ;
+    transition-duration: 0s;
+}
+#python-logo-skill{
+    background-image: url("python.png") ;
+    width: 350px;
+    height: 100px;
+    margin-left:40% ;
+    background-size: cover;
+    display: inline-block;
+    margin-top: 4%;
+    
+}
+#skill-python{
+    color: red;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    margin-top: 2%;
+}
+#mysql{
+    /* width: 100px; */
+    display: flex;
+    height: 200px;
+    width: 95%;
+    /* background-color: white; */
+    border-radius: 300px;
+    /* box-shadow: 0 0 10px orange; */
+    margin-top: 10px;
+    margin-left: 2%;
+    transition-property: all;
+    transition-timing-function:ease-in ;
+    transition-duration: 0s;
+}
+#mysql-logo-skill{
+    background-image: url("mysql-logo.png") ;
+    width: 300px;
+    height: 150px;
+    margin-left:40% ;
+    background-size: cover;
+    display: inline-block;
+    margin-top: 1.5%;
+    
+}
+#skill-mysql{
+    color: red;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    margin-top: 2%;
+}
+#tkinter{
+    /* width: 100px; */
+    display: flex;
+    height: 200px;
+    width: 95%;
+    /* background-color: white; */
+    border-radius: 300px;
+    /* box-shadow: 0 0 10px orange; */
+    margin-top: 10px;
+    margin-left: 2%;
+    transition-property: all;
+    transition-timing-function:ease-in ;
+    transition-duration: 0s;
+}
+#tkinter-logo-skill{
+    background-image: url("tkinter-logo.png") ;
+    width: 280px;
+    height: 150px;
+    margin-left:40% ;
+    background-size: cover;
+    display: inline-block;
+    margin-top: 2%;
+}
+#cpp{
+    /* width: 100px; */
+    display: flex;
+    height: 200px;
+    width: 95%;
+    /* background-color: white; */
+    border-radius: 300px;
+    /* box-shadow: 0 0 10px orange; */
+    margin-top: 10px;
+    margin-left: 2%;
+    transition-property: all;
+    transition-timing-function:ease-in ;
+    transition-duration: 0s;
+}
+#cpp-logo-skill{
+    background-image: url("cpp-logo.png") ;
+    width: 320px;
+    height: 100px;
+    margin-left:40% ;
+    background-size: cover;
+    display: inline-block;
+    margin-top: 3.5%;
+}
+#html{
+    padding-top: 50px; ;
+    /* width: 100px; */
+    display: flex;
+    height: 170px;
+    width: 95%;
+    /* background-color: white; */
+    border-radius: 300px;
+    /* box-shadow: 0 0 10px orange; */
+    margin-top: 10px;
+    margin-left: 2%;
+    transition-property: all;
+    transition-timing-function:ease-in ;
+    transition-duration: 0s;
+}
+#html-logo-skill{
+    background-image: url("html-logo.png") ;
+    width: 340px;
+    height: 100px;
+    margin-left:40% ;
+    background-size: cover;
+    display: inline-block;
+    margin-top: 1.5%;
+}
+#css{
+    padding-top: 50px; ;
+    /* width: 100px; */
+    display: flex;
+    height: 200px;
+    width: 95%;
+    /* background-color: white; */
+    border-radius: 300px;
+    /* box-shadow: 0 0 10px orange; */
+    margin-top: 10px;
+    margin-left: 2%;
+
+    transition-property: all;
+    transition-timing-function:ease-in ;
+    transition-duration: 0s;
+}
+#css-logo-skill{
+    background-image: url("css-logo.png") ;
+    width: 300px;
+    height: 150px;
+    margin-left:40% ;
+    background-size: cover;
+    display: inline-block;
+    
+}
+#javascript{
+    padding-top: 50px; ;
+    /* width: 100px; */
+    display: flex;
+    height: 180px;
+    width: 95%;
+    /* background-color: white; */
+    border-radius: 300px;
+    /* box-shadow: 0 0 10px orange; */
+    margin-top: 10px;
+    margin-left: 2%;
+    transition-property: all;
+    transition-timing-function:ease-in ;
+    transition-duration: 0s;
+}
+#javascript-logo-skill{
+    background-image: url("javascript-logo.png") ;
+    width: 120px;
+    height: 120px;
+    margin-left:40% ;
+    background-size: cover;
+    display: inline-block;
+    
+}
+#skill-javascript{
+    color: red;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    margin-top: 2.5%;
+    margin-left: 1%;
+}
+
+#education-heading{
+    font-size: 50px;
+    font-weight: 700;
+    color: orange;
+    margin-left: 2%;
+    margin-top: 2%;
+    text-align: center;
+    text-decoration: underline;
+    font-family: magneto;
+    margin-top: 5%;
+    text-shadow: 0px 0px 10px rgb(255, 252, 92);
+    
+}
+#education-body{
+    height: 600px;
+    /* background-color: white; */
+    margin: 1% 2% 2% 2%;
+    border-radius: 10px;
+    /* border-st */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#tenth{
+    width: 250px;
+    height: 400px;
+    position: relative;
+    margin: 30px;
+  
+}
+
+#tenth-per{
+    width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* opacity: 0.7; */
+  box-shadow: 0px 0px 10px orange;
+  background: rgb(235, 224, 226);
+  border-radius: 50%;
+  margin-left: 30%;
+  z-index: 10;
+}
+#tenth-body{
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    margin-top: 50px;
+    background: wheat;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px orange;
+}
+
+#twelveth{
+    width: 250px;
+    height: 400px;
+    position: relative;
+    margin: 30px;
+    
+}
+
+#twelveth-per{
+    width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* opacity: 0.7; */
+  box-shadow: 0px 0px 10px orange;
+  background: rgb(235, 224, 226);
+  border-radius: 50%;
+  margin-left: 30%;
+  z-index: 10;
+}
+#twelveth-body{
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    margin-top: 50px;
+    background: wheat;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px orange;
+    
+}
+
+#college{
+    width: 250px;
+    height: 400px;
+    position: relative;
+    margin: 30px;
+    
+}
+
+#college-per{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* opacity: 0.7; */
+    box-shadow: 0px 0px 10px orange;
+    background: rgb(235, 224, 226);
+    border-radius: 50%;
+    margin-left: 30%;
+    z-index: 10;
+}
+#college-body{
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    margin-top: 50px;
+    background: wheat;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px orange;
+}
+.per{
+    margin-left: 28%;
+    margin-top: 35%;
+    font-weight: 900;
+    font-size: x-large;
+    display: inline-block;
+}
+.per-subscript{
+    display: block;
+    margin-left: 40%;
+    margin-left: 60%;
+}
+.per-subscriptcgpa{
+    display: block;
+    margin-left: 50%;
+    font-size: 15px;
+}
+.description{
+    /* display: inline-block; */
+    margin-top: 20%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.des-heading{
+    font-weight: 900;
+    display: inline-block;
+}
+.des-body{
+    /* display: inline-block; */
+    margin-left: 20%;
+}
+#button-body{
+    margin-top:12px ;
+    margin-left: 55%;
+    border-radius: 10px;
+    width: 100px;
+    height: 20px;
+    background-color: red;
+    color: white;
+}
+#doc-ref{
+    margin-left: 6%;
+}
+
+#contact-body{
+    background-color: black;
+    color: white;
+    /* height: 100px; */
+}
+#contact-python-image{
+    display:inline-block;
+    margin-top: 10px;
+    margin-left: 2%;
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-image: url('python_logo.png');
+}
+#contact-name{
+    display:inline;
+    /* margin-top: 10%; */
+    color:white;
+    font-family: magneto;
+    font-size: 30px;
+}
+#contact-info{
+    margin-left: 8%;
+    margin-top: 2%;
+}
+@media(max-width : 500px){
+    .options{
+        display: block;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 100%;
+    }
+    .header{
+        height: 6em;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .home-left{
+        display: block;
+        
+    }
+    .home-right{
+        display: block;
+    }
+    .home-section{
+
+        display: inline-block;
+        margin-top: 15%;
+    }
+    .tenth-class{
+        display: block;
+    }
+    #educaion-body{
+        display: block;
+    }
+    
+    #twelveth{
+        display: block;
+    }
+    #college{
+        display: block;
+    }
+}
+#html:hover{
+    box-shadow: 0px 0px 10px orange;
+    background-color: white;
+}
+#python:hover{
+    box-shadow: 0px 0px 10px orange;
+    background-color: white;
+}
+#cpp:hover{
+    box-shadow: 0px 0px 10px orange;
+    background-color: white;
+}
+#tkinter:hover{
+    box-shadow: 0px 0px 10px orange;
+    background-color: white;
+}
+#mysql:hover{
+    box-shadow: 0px 0px 10px orange;
+    background-color: white;
+}
+#css:hover{
+    box-shadow: 0px 0px 10px orange;
+    background-color: white;
+}
+#javascript:hover{
+    box-shadow: 0px 0px 10px orange;
+    background-color: white;
+}
+#abt-box:hover{
+    box-shadow: 0px 0px 20px #000dff;
+}
+#linkedin:hover{
+    color: cyan;
+    box-shadow: 0px 0px 10px cyan;
+}
+#instagram:hover{
+    color: cyan;
+    box-shadow: 0px 0px 10px cyan;
+}
+#github:hover{
+    color: cyan;
+    box-shadow: 0px 0px 10px cyan;
+}
+#twitter:hover{
+    color: cyan;
+    box-shadow: 0px 0px 10px cyan;
+}
+#dev:hover{
+    color: cyan;
+    box-shadow: 0px 0px 10px cyan;
+}
+#telegram:hover{
+    color: cyan;
+    box-shadow: 0px 0px 10px cyan;
+}
+#button-body:hover{
+    box-shadow: 0px 0px 50px red;
+}
+#feedbackform{
+    background-color: black;
+    box-shadow: 0px 0px 10px red;
+    margin-bottom: 100px;
+    margin-left: 30%;
+    margin-right: 10%;
+    width: 50%;
+}
+#form-heading{
+    /* display: flex; */
+    font-family: Sofia, cursive;
+    font-size:xxx-large;
+    text-decoration: underline;
+    text-align: center;
+    color: red;
+    background-color: black;
+    margin-bottom: 1%;
+}
+#input-fields{
+    width: 500px;
+    height: 50px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: 900;
+}
+#input-labels{
+    font-size: 20px;
+    margin-top: 25%;
+    font-size: xx-larger;
+    font-weight: 700;
+    display: inline-block;
+}
+#input-labels-msg{
+    font-size: 20px;
+    margin-top: 75%;
+    font-size: xx-larger;
+    font-weight: 700;
+    display: inline-block;
+}
+#input-labels-email{
+    font-size: 20px;
+    margin-top: 45%;
+    font-size: xx-larger;
+    font-weight: 700;
+    display: inline-block;
+}
+#input-fields-msg{
+    width: 500px;
+    height: 100px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: 900;
+}
+#left-form{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: inline-block;
+    text-align: right;
+    margin-right: 5%;
+}
+#right-form{
+    margin-bottom: 3%;
+    margin-top: 3%;
+    display: inline-block;
+    /* text-align: right; */
+    /* margin-right: 5%; */
+}
+#feedbackform{
+    display: flex;
+    justify-content: center;
+}
+#Submit-Button{
+    margin-top: 5%;
+    background-color: white;
+    color: black;
+    
+    font-size: large;
+    width: 100px;
+    height: 30px;overflow-x: ;
+}
+#Submit-Button:hover{
+    box-shadow: 0px 0px 10px red;
+    background-color: red;
+    color: white;
+}
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+}   
