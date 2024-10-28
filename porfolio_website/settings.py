@@ -26,9 +26,9 @@ SECRET_KEY = 'django-insecure--^-t(7r%#xt^t7#p#5^_s$ar^wl(-!93q*i2fkzr_jp@1r8ld!
 DEBUG = True
 
 # if you want to allow all host (change to below to deploy project)
-# ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*']
 # ALLOWED_HOSTS = ['.vercel.app']
-ALLOWED_HOSTS = [".vercel.app"]
+# ALLOWED_HOSTS = [".vercel.app"]
 
 
 # Application definition

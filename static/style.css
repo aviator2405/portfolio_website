@@ -889,6 +889,10 @@ img{
     background-color: red;
     color: white;
 }
+#feedbackMsg{
+    margin-left: 30px;
+    
+}
 body{
     background-image: url('background.jpg');
     background-size: cover;

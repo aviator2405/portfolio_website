@@ -29,4 +29,5 @@ def home(request):
         final_email=EmailMultiAlternatives(subject,msg_body,from_email,to_email)
         final_email.content_subtype='html'
         final_email.send()
-    return render(request,'index.html')
+        return render(request,"index.html",{"message":"Email Sent"})
+    return render(request,'index.html',{"message":""})
